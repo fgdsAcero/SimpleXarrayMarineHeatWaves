@@ -9,7 +9,8 @@ Version 0.9 (Current) Notes:
 * Means are calculated and saved for unique days of the year (doys) within custom user-defined batches (ex. Means are saved for doys 1-20, doys 21-40, and so on up to the 366th unique day of the year). 
 * Saving larger/"complete" MEAN datasets for a desired region is recommended over saving smaller subsets for the same region, at least time-wise. Subsetting is ESPECIALLY encouraged for percentiles.
 * Functions are provided to help monitor your system's memory usage. Crashing due to high memory usage should be avoided, so increase your subsetting to avoid this!
-* You may need to rename variable names (like longitude or latitude) for the scripts to function. 
+* You may need to rename variable names (like longitude or latitude) for the scripts to function.
+* For the scripts relating to temperatures at different depth levels, it is recommended to only load the data that you would be using (like a subset), and restart the kernal when you want to move on. This helps save memory.
 
 Information to add:
 * Where the data comes from

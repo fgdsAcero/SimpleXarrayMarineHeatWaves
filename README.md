@@ -4,7 +4,7 @@ These scripts are not perfectly calibrated to work with every temperature datase
 provide a useful template for you to use and adjust to suit your needs.
 
 # Version Notes
-Version 0.9 (Current) Notes:
+Version 0.9 (CURRENT):
 * In all scripts, the show_debug argument (when available) should show your output, including the many intermediate steps involved, up until the code produces your final product. ALWAYS run this set to True first at least once to ensure no errors are present before actually saving your means and percentiles by setting show_debug to False! 
 * The script that calculates climatological means and percentiles does not presently interpolate for NaN values.
 * All unique days of the year (doys) between 1 (January 1st) and 366 (December 31st) are generated using data that ranges between these periods; February 29, doy 60, is interpolated, though doy 60 day is used whenever available in the mean and percentile calculations where applicable. Issues may be found when using the scripts without adjusting for using incomplete data throughout the year(s), particularly when calculating the means and percentiles. 

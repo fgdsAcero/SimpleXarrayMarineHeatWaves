@@ -3,6 +3,7 @@ Scripts to calculate climatological means, 90th (or other) percentiles, and temp
 These scripts are not perfectly calibrated to work with every temperature dataset out there (some variables may need to be renamed). Overall, these scripts may 
 provide a useful template for you to use and adjust to suit your needs.
 
+# Version Notes
 Version 0.9 (Current) Notes:
 * In all scripts, the show_debug argument (when available) should show your output, including the many intermediate steps involved, up until the code produces your final product. ALWAYS run this set to True first at least once to ensure no errors are present before actually saving your means and percentiles by setting show_debug to False! 
 * The script that calculates climatological means and percentiles does not presently interpolate for NaN values.
@@ -14,11 +15,14 @@ Version 0.9 (Current) Notes:
 * You may need to rename variable names (like longitude or latitude) for the scripts to function.
 * For the scripts using temperatures at different depth levels, it is recommended to ONLY load the data that you would be using (like a subset) first and restart the kernal when you want to move on (to a different subset). This helps save memory.
 
+# Planned Future Updates
+* Include additional scripts that compare the climatological means, percentiles, and detected marine heatwave outputs of the scripts in this repository with those from Eric Oliver's marineHeatWaves.py (https://github.com/ecjoliver/marineHeatWaves), which implements the Marine Heatwave (MHW) definition of Hobday et al. (2016).
+* Add further/clearer clarifications on the arguments of the functions within the scripts.
 
-Information to add:
-* Where the data comes from
-* The data's license or terms of use
-* Attribution requirements
-* Note that users are responsible for complying with the data source's terms
-
-
+# Contact:
+Franco G. D. S. Acero
+Department of Earth and Environmental Sciences
+Columbia University
+New York, NY, United States
+e: fgd2105@columbia.edu
+w: https://github.com/fgdsAcero

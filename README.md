@@ -3,8 +3,8 @@ Scripts to calculate climatological means, 90th (or other) percentiles, and temp
 These scripts are not perfectly calibrated to work with every temperature dataset out there (some variables may need to be renamed). Overall, these scripts may 
 provide a useful template for you to use and/or adjust to suit your needs.
 
-The "sst_" scripts use temperatures like sea surface temperatures, which encompass oceanic observations from a single uniform layer of depth (at each latitude-longitude-time point).  
-The "depth_" scripts use temperatures along multiple uniform layers of depth (at each latitude-longitude-time point).
+* The "sst_" scripts use temperatures like sea surface temperatures, which encompass oceanic observations from a single uniform layer of depth (at each latitude-longitude-time point).  
+* The "depth_" scripts use temperatures along multiple uniform layers of depth (at each latitude-longitude-time point).
 
 # Version Notes and Recommendations
 Version 0.9 (CURRENT):  

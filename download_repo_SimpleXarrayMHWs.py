@@ -1,8 +1,8 @@
 from git import Repo
 import sys
 
-REPO_URL = 'https://github.com/fgdsAcero/SimpleXarrayMarineHeatwaves.git'
-LOCAL_DIR = './SimpleXarrayMHWs'
+REPO_URL = 'https://github.com/fgdsAcero/SimpleXarrayMarineHeatWaves.git'
+LOCAL_DIR = './SimpleXarrayMarineHeatWaves'
 
 try:
   print("Downloading the latest SimpleXarrayMHWs repository...")

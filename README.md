@@ -3,7 +3,7 @@ Scripts to calculate climatological means, 90th (or other) percentiles, and temp
 These scripts are not perfectly calibrated to work with every temperature dataset out there (some variables may need to be renamed). Overall, these scripts may 
 provide a useful template for you to use and adjust to suit your needs.
 
-# Version Notes
+# Version Notes and Recommendations
 Version 0.9 (CURRENT):
 * In all scripts, the show_debug argument (when available) should show your output, including the many intermediate steps involved, up until the code produces your final product. ALWAYS run this set to True first at least once to ensure no errors are present before actually saving your means and percentiles by setting show_debug to False! 
 * The script that calculates climatological means and percentiles does not presently interpolate for NaN values.

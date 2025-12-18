@@ -20,7 +20,7 @@ Late December 2025/Early January 2026:
 * Include additional scripts that compare the climatological means, percentiles, and detected marine heatwave outputs of the scripts in this repository with those from Eric Oliver's marineHeatWaves.py (https://github.com/ecjoliver/marineHeatWaves), which implements the Marine Heatwave (MHW) definition of Hobday et al. (2016).
   
 Up to May 2026:  
-* Add further/clearer clarifications on the arguments of the functions within the scripts.
+* Add further/clearer clarifications on the arguments of the functions within the scripts. This is especially the case for the severity script for temperatures with depth.
 
 # References
 Hobday, A.J. et al. (2016), A hierarchical approach to defining marine heatwaves, Progress in Oceanography, 141, pp. 227-238, doi: 10.1016/j.pocean.2015.12.014 [pdf](http://passage.phys.ocean.dal.ca/~olivere/docs/Hobdayetal_2016_PO_HierarchMHWDefn.pdf)

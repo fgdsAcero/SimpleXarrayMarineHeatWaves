@@ -1,7 +1,7 @@
 from git import Repo
 import sys
 
-REPO_URL = 'https://github.com/fgdsAcero/SimpleXarrayMHWs.git'
+REPO_URL = 'https://github.com/fgdsAcero/SimpleXarrayMarineHeatwaves.git'
 LOCAL_DIR = './SimpleXarrayMHWs'
 
 try:

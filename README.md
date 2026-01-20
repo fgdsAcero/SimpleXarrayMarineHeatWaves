@@ -7,7 +7,7 @@ provide a useful template for you to use and/or adjust to suit your needs.
 * The "depth_" scripts use temperatures along multiple uniform layers of depth (at each latitude-longitude-time point).
 
 # Version Notes and Recommendations
-* Generally, it is recommended to use the latest version of a particular script. If a prior version's (modified) script is used, it is recommended to check out the changes in the latest script and see if any desired tweaks can be carried over.
+* Generally, it is recommended to use the latest version of a particular script. If a prior version's (personally modified) script is used, it is recommended to check out the changes in the latest script and see if any desired tweaks can be carried over.
  
 Version 1.0 (IN PROGRESS):
 * Including tweaks to the Version 0.9 scripts' code and layout, as well as corresponding comments/notes to assist with usage. The Version 0.9 recommendations/notes apply to these scripts as well.

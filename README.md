@@ -11,6 +11,8 @@ provide a useful template for you to use and/or adjust to suit your needs.
  
 Version 1.0 (IN PROGRESS):
 * Including tweaks to the Version 0.9 scripts' code and layout, as well as corresponding comments/notes to assist with usage. The Version 0.9 recommendations/notes apply to these scripts as well.
+* Removing unused dependencies and code.
+* Noting which dependencies are optional and which are absolutely required (typically only xarray and numpy).
 
 Version 0.9 (CURRENT):  
 * In all scripts, the show_debug argument (when available) should show your output, including the many intermediate steps involved, up until the code produces your final product. ALWAYS run this set to True first at least once to ensure no errors are present before actually saving your means and percentiles by setting show_debug to False! 

@@ -1,7 +1,7 @@
 # SimpleXarrayMarineHeatWaves  
-Scripts to calculate climatological means, 90th (or other) percentiles, and temperature and marine heatwave (MHW) severities based on a chosen 30-year baseline historical period.
-These scripts are not perfectly calibrated to work with every temperature dataset out there (some variables may need to be renamed). Overall, these scripts may 
-provide a useful template for you to use and/or adjust to suit your needs.
+Scripts to calculate climatological means, 90th (or other) percentiles, and temperature and marine heatwave (MHW) severities based on a chosen 30-year baseline historical period with 
+Python numpy and xarray. As a note, these scripts are not perfectly calibrated to work with every temperature dataset out there (some variables may need to be renamed). Overall, these 
+scripts may provide a useful template for you to use and/or adjust to suit your needs.
 
 * The "sst_" scripts use temperatures like sea surface temperatures, which encompass oceanic observations from a single uniform layer of depth (at each latitude-longitude-time point).  
 * The "depth_" scripts use temperatures along multiple uniform layers of depth (at each latitude-longitude-time point).

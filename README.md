@@ -30,8 +30,5 @@ Hobday, A.J. et al. (2016), A hierarchical approach to defining marine heatwaves
 
 # Contact:
 Franco G. D. S. Acero  
-Department of Earth and Environmental Sciences  
-Columbia University  
-New York, NY, United States  
 e: fgd2105@columbia.edu  
 w: https://github.com/fgdsAcero  
